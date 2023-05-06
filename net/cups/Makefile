@@ -86,7 +86,7 @@ define Package/cups-ppdc
 $(call Package/cups/Default)
   SECTION:=net
   CATEGORY:=Network
-  DEPENDS:=+libcups +libjpeg +libpng +libstdcpp +libz
+  DEPENDS:=+libcups +libjpeg +libpng +libstdcpp +zlib
   TITLE:=Common UNIX Printing System - PPDC utils
 endef
 
